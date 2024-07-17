@@ -3,5 +3,6 @@ public class Hello {
         GoodsDAO dao = new GoodsDAO();
         dao.insert();
         dao.update();
+        System.out.println("Hello World!");
     }
 }
