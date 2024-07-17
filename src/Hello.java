@@ -6,5 +6,6 @@ public class Hello {
 
         DeptDAO dDao = new DeptDAO();
         dDao.insert();
+        System.out.println("Hello World!");
     }
 }
